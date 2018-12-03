@@ -1,0 +1,53 @@
+/*头部导航开始*/
+.head{
+	width: 100%;
+	height: 0.99rem;
+	background: #f8f8f8;
+	display: flex;
+	position: relative;
+}
+.logo{
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100%;
+	padding: 0 0.37rem;
+	line-height: 0.99rem;
+}
+.logo img{
+	width: 0.67rem;
+}
+.search{
+	position: absolute;
+	padding: 0 0.37rem;
+	line-height: 0.99rem;
+	top: 0;
+	right: 0;
+}
+.search i{
+	color: #868686;
+	font-size: 0.59rem;
+}
+.headNav{
+	flex: 1;
+	margin:0 1.33rem 0 2.68rem;
+}
+.headNav ul{
+	overflow: hidden;
+}
+.headNav ul li{
+	float: left;
+	font-size: 0.37rem;
+	margin:0 0.37rem;
+	line-height: 0.99rem;
+}
+.headNav ul li a{
+	color: #a9a9a9;
+}
+.headNav ul .active a{
+	color: #424242;
+}
+.headNav ul li a:hover{
+	color: #424242;
+}
+/*头部导航结束*/

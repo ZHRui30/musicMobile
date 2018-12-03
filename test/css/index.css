@@ -1,0 +1,54 @@
+
+/*主体内容开始*/
+.musicBox{
+	padding: 0.4rem;
+	overflow: hidden;
+	border-bottom: 1px solid #f6f6f6;
+}
+.musicImgBox{
+	width: 2.13rem;
+	height: 2.13rem;
+	background: orange;
+	float: left;
+	position: relative;
+}
+.musicImgBox img{
+	width: 100%;
+}
+.threeMusicList{
+	height: 2.13rem;
+	margin-left: 0.32rem;
+	float: left;
+}
+.threeMusicList ul li{
+	font-size: 12px;
+	margin-top: 0.20rem;
+	width: 6.01rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.threeMusicList ul li a{
+	color: #343434;
+}
+.musicId{
+	color: #fa6644;
+	font-weight: bold;
+	margin-right: 0.17rem;
+}
+.playBtn{
+	width: 0.67rem;
+	height: 0.67rem;
+	border:1px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0.08rem;
+	right: 0.08rem;
+	background: rgba(0,0,0,.3);
+	line-height: 0.67rem;
+	text-align: center;
+}
+.playBtn a{
+	color: #fff;
+}
+/*主体内容结束*/
